@@ -1,0 +1,24 @@
+{
+  "name": "helloword",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "packing": "webpack -p",
+    "dev": "webpack-dev-server"
+  },
+  "author": "GQSM",
+  "license": "ISC",
+  "dependencies": {
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "webpack": "^4.18.0"
+  }
+}
